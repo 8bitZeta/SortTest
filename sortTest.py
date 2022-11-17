@@ -120,7 +120,7 @@ class MainWindow(QWidget):
 
         self.numSpin = QSpinBox()
         self.numSpin.setMinimum(2)
-        self.numSpin.setMaximum(10000)
+        self.numSpin.setMaximum(1000000)
         self.numSpin.setValue(100)
         sortLayout.addWidget(self.numSpin)
 
